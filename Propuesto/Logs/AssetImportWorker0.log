@@ -1,0 +1,1129 @@
+Using pre-set license
+Built from '6000.1/staging' branch; Version is '6000.1.4f1 (03270eb687c6) revision 206606'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 16259 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Date: 2025-06-05T05:07:41Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.1.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Unity/Lab5/DSJ-Practica5
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51976
+-job-worker-count
+1
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: E:/Unity/Lab5/DSJ-Practica5
+E:/Unity/Lab5/DSJ-Practica5
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16924]  Target information:
+
+Player connection [16924]  * "[IP] 192.168.1.44 [Port] 0 [Flags] 2 [Guid] 236568809 [EditorId] 236568809 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K45S3PO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16924] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16924] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 1
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 4.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.1.4f1 (03270eb687c6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.1.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/Lab5/DSJ-Practica5/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:          NVIDIA
+    VRAM:            1964 MB
+    App VRAM Budget: 1669 MB
+    Driver:          32.0.15.7652
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.1.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.1.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003490 seconds.
+- Loaded All Assemblies, in  0.572 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.464 seconds
+Domain Reload Profiling: 1033ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (233ms)
+		LoadAssemblies (188ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (229ms)
+			TypeCache.Refresh (227ms)
+				TypeCache.ScanAssembly (207ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (465ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (416ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (71ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (174ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.047 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.022 seconds
+Domain Reload Profiling: 2065ms
+	BeginReloadAssembly (243ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (676ms)
+		LoadAssemblies (484ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (331ms)
+			TypeCache.Refresh (250ms)
+				TypeCache.ScanAssembly (229ms)
+			BuildScriptInfoCaches (60ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1023ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (764ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (174ms)
+			ProcessInitializeOnLoadAttributes (498ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 202 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5968 unused Assets / (4.3 MB). Loaded Objects now: 6665.
+Memory consumption went from 153.5 MB to 149.3 MB.
+Total: 10.713300 ms (FindLiveObjects: 0.898300 ms CreateObjectMapping: 1.470900 ms MarkObjects: 5.574600 ms  DeleteObjects: 2.768500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 445693.234001 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props
+  artifactKey: Guid(5baa105e8290a784f83e074b95138497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props using Guid(5baa105e8290a784f83e074b95138497) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3b7302d8cf9c1936f457002a18334cf') in 0.013273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099005 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Tyres/prop_tyre_4x1_A.prefab
+  artifactKey: Guid(6b4c664517cfbd04ab97aa1547a73a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Tyres/prop_tyre_4x1_A.prefab using Guid(6b4c664517cfbd04ab97aa1547a73a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19287c58a56b12fe0140e6122c74d2cf') in 0.7296372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.174305 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_pitwall.prefab
+  artifactKey: Guid(a0704e0bbc27f9c44a06906897e0a5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_pitwall.prefab using Guid(a0704e0bbc27f9c44a06906897e0a5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)d3d12: upload buffer was too small for the requested resource! Size: 16777216. Requested: 67108864.
+ -> (artifact id: '86e408e5bec86c34228f54847deff2e5') in 0.1524108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Physics Materials
+  artifactKey: Guid(6142118558625084ba2b637990196961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Physics Materials using Guid(6142118558625084ba2b637990196961) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55cb494d23eae8415327bbdfcc1072f8') in 0.0005744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Trees
+  artifactKey: Guid(240aa3fa009b8bd43b87dd778607df21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Trees using Guid(240aa3fa009b8bd43b87dd778607df21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11cf3ee9ca637f5d24ca010e327fe558') in 0.0005438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001568 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_F.prefab
+  artifactKey: Guid(8fafc21f40d96fa46ae157a11f9f91c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_F.prefab using Guid(8fafc21f40d96fa46ae157a11f9f91c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e33f96f47b7005e20c8ea37c22eb41e') in 0.0248566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044891 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_15.prefab
+  artifactKey: Guid(d7b24396e89fa6244afaee6ebec0f0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_15.prefab using Guid(d7b24396e89fa6244afaee6ebec0f0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6a095f30166b4fb36fb0399b55c308b') in 0.1021412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_seats.prefab
+  artifactKey: Guid(29941f1cf302e7c4fb5a208f889be20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_seats.prefab using Guid(29941f1cf302e7c4fb5a208f889be20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cd16627e307137386a8b8dbb01f9767') in 0.1406745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_17.prefab
+  artifactKey: Guid(177bf98dc5b13ae43bcbee879ccdaed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_17.prefab using Guid(177bf98dc5b13ae43bcbee879ccdaed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4ac7c67f4a37c34f5fca2c71835fdf4') in 0.0992189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026177 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings using Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4b47d252bc4e8d77fd6334abcf5e3e8') in 0.0005965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Trees/prop_tree_D.prefab
+  artifactKey: Guid(733aef9e74a251e4cba636d3147a7309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Trees/prop_tree_D.prefab using Guid(733aef9e74a251e4cba636d3147a7309) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad7a8d39020fe761a149cb762a65aefc') in 0.0281356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050037 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs
+  artifactKey: Guid(fe29feda834ce014083db71ff51e59ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs using Guid(fe29feda834ce014083db71ff51e59ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85d43917bf7c9ca352e3b9dcae5db26c') in 0.0006794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_lamp.prefab
+  artifactKey: Guid(da6b0a9d56a9d9a439ce84b9b837fefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_lamp.prefab using Guid(da6b0a9d56a9d9a439ce84b9b837fefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f8e18cebcd521317bb30a36a711bf4b') in 0.0967818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.140420 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_banner_medium_A.prefab
+  artifactKey: Guid(6a08bc139e033e74c9f5a8732b4e13d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_banner_medium_A.prefab using Guid(6a08bc139e033e74c9f5a8732b4e13d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96a738e27b3d5e62b1044469f49a7a11') in 0.6344347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_banner_big.prefab
+  artifactKey: Guid(03d03312a352e3f4c9d91a11cca3608f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_banner_big.prefab using Guid(03d03312a352e3f4c9d91a11cca3608f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef749cad6e4f5e14f56c27ad1eb7344a') in 0.1246083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_D.prefab
+  artifactKey: Guid(6f1c068ed03fc3149b8e09cd64181d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_D.prefab using Guid(6f1c068ed03fc3149b8e09cd64181d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f96e3fbf623225335ebf773f2906aee4') in 0.0238326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_lamps.prefab
+  artifactKey: Guid(cae49809804330a498981fb4fd11d70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_lamps.prefab using Guid(cae49809804330a498981fb4fd11d70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b288cf4875fe8702cba1dec04f8f43f') in 0.1206125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.197086 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Trees/prop_tree_E.prefab
+  artifactKey: Guid(c90f7dbd64fa7754897f2f70a025cf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Trees/prop_tree_E.prefab using Guid(c90f7dbd64fa7754897f2f70a025cf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1a78650ff9762fa48ef24dfac258585') in 0.0330788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007947 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_startlights.prefab
+  artifactKey: Guid(d7c9b08657eabc54db441e4854d7996e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_startlights.prefab using Guid(d7c9b08657eabc54db441e4854d7996e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eab3b096dbb551dca1bf128634f2c0aa') in 0.123206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_exitlights.prefab
+  artifactKey: Guid(146a70e72cd9b154ab821e36a14b0bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_exitlights.prefab using Guid(146a70e72cd9b154ab821e36a14b0bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db81b77d9f2a21bd8e98ad5b4f6862e1') in 0.1149071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_buildings.prefab
+  artifactKey: Guid(27e8bc534fb9c974fa4da2c0a43518fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_buildings.prefab using Guid(27e8bc534fb9c974fa4da2c0a43518fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12470b11c3921dd4c3f42ec7fe0503ee') in 0.1204988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 176
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_B.prefab
+  artifactKey: Guid(edd3c9ff092f11e4baaa95defb9a257f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_B.prefab using Guid(edd3c9ff092f11e4baaa95defb9a257f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f8bfed3194b83484b664e4275c815c8') in 0.0229167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066836 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_12.prefab
+  artifactKey: Guid(4ee7a2c6c62341c4ba94c5d471593b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_12.prefab using Guid(4ee7a2c6c62341c4ba94c5d471593b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c208fe824aa453496bf63978c68be1f3') in 0.1146477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.217153 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Walls/prop_wall_C.prefab
+  artifactKey: Guid(2dc88a08c11163745a5d9e5e9110c562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Walls/prop_wall_C.prefab using Guid(2dc88a08c11163745a5d9e5e9110c562) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c78b9d195b94e4dba8cf31177ee7013') in 0.1311791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011293 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_bridge_stairs.prefab
+  artifactKey: Guid(f4e81bd3b659a004cbad14e00013ba15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_bridge_stairs.prefab using Guid(f4e81bd3b659a004cbad14e00013ba15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca81c96e76578646d3d43812d869e862') in 0.1142442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055035 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Barriers/prop_barrier_pole.prefab
+  artifactKey: Guid(8f5ba75355860994db7f47485c36ce19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Barriers/prop_barrier_pole.prefab using Guid(8f5ba75355860994db7f47485c36ce19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07925d12a602ae6bfd90c1146fd73670') in 0.0244496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_J.prefab
+  artifactKey: Guid(08c868a5aad294a46b4543e325f03eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_J.prefab using Guid(08c868a5aad294a46b4543e325f03eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfe9c0a44ea18c70e3083ebc79d4e14c') in 0.0242132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055388 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_11.prefab
+  artifactKey: Guid(2a8e359ee7f80a240800588a59f6752a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_11.prefab using Guid(2a8e359ee7f80a240800588a59f6752a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f92e7578a66c470c50bfebd3d218502e') in 0.1163525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_barriers.prefab
+  artifactKey: Guid(32d5690c9db90e740bddd052e48efc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_barriers.prefab using Guid(32d5690c9db90e740bddd052e48efc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a2781dba3d4f70175cc1da7fb818004') in 0.0274388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_9.prefab
+  artifactKey: Guid(ac1796265640f6d49b1dbdb62d476c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_9.prefab using Guid(ac1796265640f6d49b1dbdb62d476c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee05b46e03eada09f746ac93757deb7e') in 0.1489535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular
+  artifactKey: Guid(cf20f0f386e93d14c835cdf4e5933f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular using Guid(cf20f0f386e93d14c835cdf4e5933f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e90433eec317fe579aacfc4a53c160c') in 0.0005872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners
+  artifactKey: Guid(0b8de04e712604f43b779629e0571ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners using Guid(0b8de04e712604f43b779629e0571ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a70d3f5678a64798057b19da994dc76c') in 0.0005585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_metal_pole.prefab
+  artifactKey: Guid(6013d73922d0dfb41914e10f21172d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_metal_pole.prefab using Guid(6013d73922d0dfb41914e10f21172d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ac9cf5365027129d9e79c5fc321b4d6') in 0.1468921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.565321 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_10.prefab
+  artifactKey: Guid(48a3588790d8e1544a172eb4e340dc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_10.prefab using Guid(48a3588790d8e1544a172eb4e340dc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d915cd9923e75f4ce1e20066275fe37') in 0.1467153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_distance_2.prefab
+  artifactKey: Guid(68b9cdf2eb758e547bcf47d661c63882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_distance_2.prefab using Guid(68b9cdf2eb758e547bcf47d661c63882) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b84375fc6ffb212decb84de90635292') in 0.1470219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.926917 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes
+  artifactKey: Guid(513a71286c23a594fbd6f58b9023197b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes using Guid(513a71286c23a594fbd6f58b9023197b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8d568b4549b291565f919562a10d2f0') in 0.0012254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_banner_medium_D.prefab
+  artifactKey: Guid(58e5bfb3aacaaea4caf90884068349f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_banner_medium_D.prefab using Guid(58e5bfb3aacaaea4caf90884068349f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7528dd46a2100c15dc31aa1726ae2c22') in 0.1549616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_tents.prefab
+  artifactKey: Guid(236da01a3a0ddb94399e07ecc8b36af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_tents.prefab using Guid(236da01a3a0ddb94399e07ecc8b36af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfd3ee4ae90c581c3a33367681ccc197') in 0.1443242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Barriers/prop_barrier_4M.prefab
+  artifactKey: Guid(328b5f5f755b96040a0219c78a2909e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Barriers/prop_barrier_4M.prefab using Guid(328b5f5f755b96040a0219c78a2909e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '983b6b102bee592ac2bf7a000bdb5d6f') in 0.0295436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_tent.prefab
+  artifactKey: Guid(943b41a074885b94fa35dd847606ac8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_tent.prefab using Guid(943b41a074885b94fa35dd847606ac8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7292c0b307859740c183a91ea87d8a2c') in 0.1515067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_terrain.prefab
+  artifactKey: Guid(0272d5b08108c7543b70c3ccbcd7249c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_terrain.prefab using Guid(0272d5b08108c7543b70c3ccbcd7249c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)d3d12: upload buffer was too small for the requested resource! Size: 67108864. Requested: 268435456.
+ -> (artifact id: '1b711673fa36729dd129d3dbfe3cc4cd') in 0.8613849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 207
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048675 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_seats_big.prefab
+  artifactKey: Guid(5c111ab03fe42ee4b94566bd46ed2fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_seats_big.prefab using Guid(5c111ab03fe42ee4b94566bd46ed2fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5579751c02e3c838f0b57a917311d7b') in 0.1043811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_2.prefab
+  artifactKey: Guid(b3c55aea0b6607d4795df90cc6f9c620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_2.prefab using Guid(b3c55aea0b6607d4795df90cc6f9c620) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0a647cce896bcb849a052ddcf1acbfb') in 0.1012234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_20.prefab
+  artifactKey: Guid(e0a89758fb0654b48a2be82e12edb889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_20.prefab using Guid(e0a89758fb0654b48a2be82e12edb889) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32f6bfcc169a00134365d96d14b9d64a') in 0.0961677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015675 seconds.
+  path: Assets/TutorialInfo/Layout.wlt
+  artifactKey: Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Layout.wlt using Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7926b6994d4862df7da56ccd587e180') in 0.0011851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_banner_medium_C.prefab
+  artifactKey: Guid(51087d8cae282b94a9c6e494c3062f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_banner_medium_C.prefab using Guid(51087d8cae282b94a9c6e494c3062f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1e2da699982ba066e9b9d45f12bb0c9') in 0.1045314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060199 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_13.prefab
+  artifactKey: Guid(56eb2457054d33841820e62ae0a64ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_13.prefab using Guid(56eb2457054d33841820e62ae0a64ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60767efa1cd9b45068c1f3874426cdec') in 0.1031042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Barriers/prop_barrier_2M.prefab
+  artifactKey: Guid(808e1826575c4c14b9c27c0a6c1c5dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Barriers/prop_barrier_2M.prefab using Guid(808e1826575c4c14b9c27c0a6c1c5dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4d4b1cdb5b6b35da675407a385cc6b6') in 0.0493047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_8.prefab
+  artifactKey: Guid(5a7f29cefbb5d6348842d992267fab22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_8.prefab using Guid(5a7f29cefbb5d6348842d992267fab22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ea8360e5a5e9fe8c782960efe124cde') in 0.0927735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_4.prefab
+  artifactKey: Guid(d8f241943b5e2814c8ec6be1022ea2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_4.prefab using Guid(d8f241943b5e2814c8ec6be1022ea2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac6a5307a97b92e6a989cff4d86f7464') in 0.0981062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.429725 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Tyres/prop_tyre_1x1_A.prefab
+  artifactKey: Guid(83c833c4f0704e1418bf7029196d28bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Tyres/prop_tyre_1x1_A.prefab using Guid(83c833c4f0704e1418bf7029196d28bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e07a17669dfe773b2d8ebcd1826ecc5') in 0.0308755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063103 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_blocks.prefab
+  artifactKey: Guid(f3b91a1b9d3bd0f41af30fd573263395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_blocks.prefab using Guid(f3b91a1b9d3bd0f41af30fd573263395) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6c7ec113a5b5df2006f275b798ed370') in 0.0919749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 56
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Barriers/prop_barrier_1M.prefab
+  artifactKey: Guid(3ba73b0c3a2c78843b97c97f6c4b7c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Barriers/prop_barrier_1M.prefab using Guid(3ba73b0c3a2c78843b97c97f6c4b7c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87e05eac1ee828de0929885197a79330') in 0.0257377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014746 seconds.
+  path: Assets/Models
+  artifactKey: Guid(0f8a8ece837554d48bfd3862aca34f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(0f8a8ece837554d48bfd3862aca34f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94499e20d54712b83a8ccff97dc2ccb2') in 0.0006189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093796 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_7.prefab
+  artifactKey: Guid(ea1a57809fa40144caa2a363e070a034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_7.prefab using Guid(ea1a57809fa40144caa2a363e070a034) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e0666965fe6c557977e3a9ba1848937') in 0.0889126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_arrow_long.prefab
+  artifactKey: Guid(243a4033fc4deac45936cd8382edcda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_arrow_long.prefab using Guid(243a4033fc4deac45936cd8382edcda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a56f256393acbb179907f7baca66b6f') in 0.0914661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_tyres.prefab
+  artifactKey: Guid(75b153afc116e8c4b83693a9bbf7f515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_tyres.prefab using Guid(75b153afc116e8c4b83693a9bbf7f515) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1170e7a99252967abf262252d95e1c42') in 0.0401615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 142
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_16.prefab
+  artifactKey: Guid(cf31a4ac54e8b4d4c8af82534b295992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_16.prefab using Guid(cf31a4ac54e8b4d4c8af82534b295992) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e4a30ad974cc3afe046436daeecfe2c') in 0.0920019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025885 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_C.prefab
+  artifactKey: Guid(79dba878759f2a34eb4af105c6c5bb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_C.prefab using Guid(79dba878759f2a34eb4af105c6c5bb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5dfcaeda4ebe34f9e73e452d6a5a3f41') in 0.023788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_tower.prefab
+  artifactKey: Guid(30fda46e5e8ed044288116c517920c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_tower.prefab using Guid(30fda46e5e8ed044288116c517920c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b78a0f82063cec71d1e59c9811578576') in 0.0901878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_3.prefab
+  artifactKey: Guid(adcc315f3b671a54db7647c3002c9e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_3.prefab using Guid(adcc315f3b671a54db7647c3002c9e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12c0f90e1147520d606ced6d073c3729') in 0.0881304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_bridges.prefab
+  artifactKey: Guid(bde06e7a046f3f341a9c307888b8df9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_bridges.prefab using Guid(bde06e7a046f3f341a9c307888b8df9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c648419bf4214f6eab86407c9749c2d') in 0.0942574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TutorialInfo
+  artifactKey: Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo using Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd0ce3b9fb2b0078fcd59af112aef3b6') in 0.0005826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_garage.prefab
+  artifactKey: Guid(b8bba829b60cf364d81102cdc987fecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_garage.prefab using Guid(b8bba829b60cf364d81102cdc987fecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c1209b9c9ed504d8b4b0fa6dd3f2d1a') in 0.091344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_19.prefab
+  artifactKey: Guid(8e3d2ce2888b6eb469c56247d5337548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_19.prefab using Guid(8e3d2ce2888b6eb469c56247d5337548) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be7c5bf57ec3a1e477317d650a9f0635') in 0.0927194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Tyres/prop_tyre_1x1_B.prefab
+  artifactKey: Guid(3adcfd89b4f262a489e978574b6e7567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Tyres/prop_tyre_1x1_B.prefab using Guid(3adcfd89b4f262a489e978574b6e7567) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69420092e564daa00f3cab4ec212ce2d') in 0.0307748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_adbox_A.prefab
+  artifactKey: Guid(6c524b96cebe56245b2bf666d7879a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_adbox_A.prefab using Guid(6c524b96cebe56245b2bf666d7879a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03efef277397281bbc080964d3225c4c') in 0.1082533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_distance_3.prefab
+  artifactKey: Guid(f7bbaa5309bc8ce4286d16447db54563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_distance_3.prefab using Guid(f7bbaa5309bc8ce4286d16447db54563) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b9a3108a1d193a3a6b88187349be895') in 0.0906255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_gridline.prefab
+  artifactKey: Guid(3250c15b11377ed4ab6f7c05d488ccfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_gridline.prefab using Guid(3250c15b11377ed4ab6f7c05d488ccfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b85deb5ddc1e0bae343c6efadcd62f30') in 0.3321322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Barriers
+  artifactKey: Guid(f338c2e3f9bb56845b24fbad9af609f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Barriers using Guid(f338c2e3f9bb56845b24fbad9af609f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f08e0be62e1b1e363079b28842f39a5b') in 0.0006649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Tyres/prop_tyre_4x8.prefab
+  artifactKey: Guid(87b71185968dc4c4d9435c0493064027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Tyres/prop_tyre_4x8.prefab using Guid(87b71185968dc4c4d9435c0493064027) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6443f1c2bf54f397a3fe2093e1a15074') in 0.0774428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.870997 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_pitwall.prefab
+  artifactKey: Guid(2953943eb6ab8e24081b12ab3f22a4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_pitwall.prefab using Guid(2953943eb6ab8e24081b12ab3f22a4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0895290fdb7669316c6c568ed0e2ebe') in 0.1071345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_startlights.prefab
+  artifactKey: Guid(96412b3f37e36db428c1a5ebe790fbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_startlights.prefab using Guid(96412b3f37e36db428c1a5ebe790fbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2453fc2cac3cde8dbada6f79f797d0eb') in 0.1174647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_bridge_middle.prefab
+  artifactKey: Guid(adcc1d23d2daba745879ab39fe647517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_bridge_middle.prefab using Guid(adcc1d23d2daba745879ab39fe647517) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49e35bc77e91e84f100aeb617c19d86b') in 0.0988439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.208301 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs
+  artifactKey: Guid(a1d7a2798f0d0a441a088085eb9982e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs using Guid(a1d7a2798f0d0a441a088085eb9982e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '440091fac33c73523cec33231ac96b42') in 0.0006252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032205 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_trees.prefab
+  artifactKey: Guid(95fa7fc8bfed17d498b877fadc1697fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_trees.prefab using Guid(95fa7fc8bfed17d498b877fadc1697fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce61c87d43fd7eb55bf981ab72391535') in 0.1494678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 131
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026427 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_arrow_short.prefab
+  artifactKey: Guid(472e3ae43fca96e41b2d7525cf75f0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_arrow_short.prefab using Guid(472e3ae43fca96e41b2d7525cf75f0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45130a0d8b570d77ead4f537dc986b2d') in 0.0970625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_6.prefab
+  artifactKey: Guid(b0569cf47df75344fa5077c2ac626483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_6.prefab using Guid(b0569cf47df75344fa5077c2ac626483) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59861f09c8127a54f51b14ff02e254c5') in 0.0957901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Demo Scenes/complete_track_demo.unity
+  artifactKey: Guid(83760dd98fe89364daec0c8817772284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Demo Scenes/complete_track_demo.unity using Guid(83760dd98fe89364daec0c8817772284) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca73e7b5fd83af4bd519eb89dc3c6b6b') in 0.0006106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009058 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_plastic_block.prefab
+  artifactKey: Guid(b31cca7e1418b9042921e3ec481ec6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_plastic_block.prefab using Guid(b31cca7e1418b9042921e3ec481ec6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d73a7e358064e00d2966e825406560a') in 0.0941978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_adbox_C.prefab
+  artifactKey: Guid(7b3402349441f434fa5185dc34688c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_adbox_C.prefab using Guid(7b3402349441f434fa5185dc34688c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fd29f7bcabd7cef9b5447a000ae1942') in 0.101866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_14.prefab
+  artifactKey: Guid(14bf9a7f5f1db6b45803e69251ea5c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_14.prefab using Guid(14bf9a7f5f1db6b45803e69251ea5c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a317b0a88c3b8358f4bcd1e8cade763') in 0.0997829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Trees/prop_tree_C.prefab
+  artifactKey: Guid(3e58b23721850ae4bacbd7834af9bc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Trees/prop_tree_C.prefab using Guid(3e58b23721850ae4bacbd7834af9bc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59d02038c9a8179d9c1766c9e8561633') in 0.0271001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_18.prefab
+  artifactKey: Guid(ef6136efe92436948ac3de0121241a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_18.prefab using Guid(ef6136efe92436948ac3de0121241a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8230238be03ee650b061794c85a6c2f2') in 0.0970627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.145166 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Walls/prop_wall_B.prefab
+  artifactKey: Guid(8327dbd1d9a80574eac16eb46892a29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Walls/prop_wall_B.prefab using Guid(8327dbd1d9a80574eac16eb46892a29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdf8d0fa55270b3989bf22ade9258b27') in 0.0953639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.233049 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Track
+  artifactKey: Guid(cfba7cf4a42efef428296f752f88f55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Track using Guid(cfba7cf4a42efef428296f752f88f55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fe819424d780c355961b234457bb03e') in 0.0006049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_A.prefab
+  artifactKey: Guid(d04d36c2e9aca9448b05e8fee4f331ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_A.prefab using Guid(d04d36c2e9aca9448b05e8fee4f331ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2c65fdb77abe7a8a0e4cbe0a4fbd7b6') in 0.0228908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_banner_www_B.prefab
+  artifactKey: Guid(2e734c5161b637d419bda9be855e3cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_banner_www_B.prefab using Guid(2e734c5161b637d419bda9be855e3cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0eb009180743aeb776d5bc8126fb97d2') in 0.1005105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.822466 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_startline.prefab
+  artifactKey: Guid(0ac7649b22d33864c9cf79c3ba4b3456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_startline.prefab using Guid(0ac7649b22d33864c9cf79c3ba4b3456) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c04059193433f864da97dd877078eed7') in 1.0241504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.104193 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_H.prefab
+  artifactKey: Guid(3c1bdbb8ef82b9a469bc96a273d5cc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_H.prefab using Guid(3c1bdbb8ef82b9a469bc96a273d5cc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21fa1ff70de19aa673c057c9d6f57215') in 0.0220365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.549928 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Walls/prop_wall_A.prefab
+  artifactKey: Guid(c941e62c43a01524d897c3cd4ce7ccad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Walls/prop_wall_A.prefab using Guid(c941e62c43a01524d897c3cd4ce7ccad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86adbc6ef1639f00a70f4372db91f50d') in 0.097868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.479520 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Tyres/prop_tyre_4x1_B.prefab
+  artifactKey: Guid(959015518f1218a4cac02df950547865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Tyres/prop_tyre_4x1_B.prefab using Guid(959015518f1218a4cac02df950547865) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce7d660ac1286d6cf5e803d2ec1fb3bc') in 0.0313735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058333 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_E.prefab
+  artifactKey: Guid(9646fa6ed5e4cef4b8ab69fd8bc12f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_E.prefab using Guid(9646fa6ed5e4cef4b8ab69fd8bc12f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebd0f14ac6179deeffcdee41ff3bf860') in 0.0213497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_G.prefab
+  artifactKey: Guid(ba7a4f6d879b6d140ae80c3ab4d24fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_G.prefab using Guid(ba7a4f6d879b6d140ae80c3ab4d24fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '604725b311c0b8c7512ff8eb4ab89d7e') in 0.0218075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_turnsigns.prefab
+  artifactKey: Guid(2b742cea3010f98448c0976eb0724a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_turnsigns.prefab using Guid(2b742cea3010f98448c0976eb0724a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72feee4c3c727838066486a04a090d3d') in 0.0896912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Textures
+  artifactKey: Guid(d943f4d613acc7b428fb5e547a156991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Textures using Guid(d943f4d613acc7b428fb5e547a156991) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd54e2b41bd91313a8451c2b43d5eed63') in 0.0005718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.177063 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Trees/prop_tree_A.prefab
+  artifactKey: Guid(be438017eec07d740817351c2a812328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Trees/prop_tree_A.prefab using Guid(be438017eec07d740817351c2a812328) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01c167dcb45318ce99e538360fbd26b0') in 0.0263699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Walls/prop_wall_E.prefab
+  artifactKey: Guid(f8f9106b4fd1d4d4f9746d929f3d3716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Walls/prop_wall_E.prefab using Guid(f8f9106b4fd1d4d4f9746d929f3d3716) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcc68d6ad81de810c099443a63bfb722') in 0.0915273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons
+  artifactKey: Guid(6963fb7d89429b848a05c6436cbc31a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons using Guid(6963fb7d89429b848a05c6436cbc31a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dba1bf47352fda2fbdecfab5776da879') in 0.000586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_I.prefab
+  artifactKey: Guid(b018de3e7b27816459bcead89b4c2760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Baloons/prop_baloon_I.prefab using Guid(b018de3e7b27816459bcead89b4c2760) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6fe5bbdf8a9e694609b84124f02b682') in 0.0211229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_cone.prefab
+  artifactKey: Guid(f863c92e4102c904da932b0a140c4ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_cone.prefab using Guid(f863c92e4102c904da932b0a140c4ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b2868af92f5234110573447334f7a92') in 0.0973098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_lines.prefab
+  artifactKey: Guid(cbf79babae678474692ba1856eb21d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_lines.prefab using Guid(cbf79babae678474692ba1856eb21d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2f2dc445ec2e772e41eea0472cecf2c') in 0.3551238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 269
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.110659 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_1.prefab
+  artifactKey: Guid(abcb17d23c885854dad0d15f22989420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_1.prefab using Guid(abcb17d23c885854dad0d15f22989420) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f685472db27a3b4fab22148c89fa46f4') in 0.0978931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067627 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_paddock.prefab
+  artifactKey: Guid(6bbb2abdadcd9244cb2d28e25582ca2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_paddock.prefab using Guid(6bbb2abdadcd9244cb2d28e25582ca2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a95986b2e0261d5acd66947a0bfb919') in 0.1146899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CartoonTracksPack1
+  artifactKey: Guid(4d1f21d7bacc1d544aa25f4e2a3b435a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1 using Guid(4d1f21d7bacc1d544aa25f4e2a3b435a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9ad661f66fa909dc1d08e049f2f4308') in 0.0006017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TankRacing.unity
+  artifactKey: Guid(2a334138a2ba04f5aa973bdfc10cd12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TankRacing.unity using Guid(2a334138a2ba04f5aa973bdfc10cd12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8b106640d55d69bc8140949ed50be8a') in 0.0005571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Trees/prop_tree_B.prefab
+  artifactKey: Guid(8ccbdfea1e438c74a826fc801a40c19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Trees/prop_tree_B.prefab using Guid(8ccbdfea1e438c74a826fc801a40c19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aba063b4dd8ccede2616b22aff099470') in 0.0252472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_banner_medium_B.prefab
+  artifactKey: Guid(826033cd80b6a52419ed72de21367205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_banner_medium_B.prefab using Guid(826033cd80b6a52419ed72de21367205) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ec494fa710aec872c6d21955084037f') in 0.1045085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Walls/prop_wall_D.prefab
+  artifactKey: Guid(3e944e3965f5e664a8f978c98b2261eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Walls/prop_wall_D.prefab using Guid(3e944e3965f5e664a8f978c98b2261eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d04f46278d6862c8c96c88e593bb8af') in 0.1025106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_walls.prefab
+  artifactKey: Guid(06d347a4ad00ae943995b10715a3cd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_walls.prefab using Guid(06d347a4ad00ae943995b10715a3cd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f813ad81bcdffe05abe7c53e868393a9') in 0.1098502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 233
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075073 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_distance_1.prefab
+  artifactKey: Guid(f2a6c94103fcb064ab365b61254538c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/prop_distance_1.prefab using Guid(f2a6c94103fcb064ab365b61254538c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a07a847ec54fcd7b3e6b11123ce26c0a') in 0.0901978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_5.prefab
+  artifactKey: Guid(e93526f2a3a2a504ea66f970b6c5fc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Team Signs/prop_team_5.prefab using Guid(e93526f2a3a2a504ea66f970b6c5fc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a264b5ec3446907b72039bcba6db9e3') in 0.0924073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Walls
+  artifactKey: Guid(8a24ad15322a6094e99a714a44611143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Walls using Guid(8a24ad15322a6094e99a714a44611143) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bb08a9cf94aec14b80b1ac3d311966f') in 0.0008336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_adbox_B.prefab
+  artifactKey: Guid(58a4b793145ffab42b6d4c693d4684e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_adbox_B.prefab using Guid(58a4b793145ffab42b6d4c693d4684e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bb2b4d526c867d7e743889ba07b5928') in 0.106564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Demo Scenes/single_objects_demo.unity
+  artifactKey: Guid(d1202740836520043a407cf5962ccfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Demo Scenes/single_objects_demo.unity using Guid(d1202740836520043a407cf5962ccfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4ada90103b296b14d307acdae36b432') in 0.0006218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Tyres
+  artifactKey: Guid(b62f848b0e0501c4ca617e83ee4e3436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Tyres using Guid(b62f848b0e0501c4ca617e83ee4e3436) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3df7504e98b2e819f07335011842174') in 0.0005628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.137315 seconds.
+  path: Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_banner_www_A.prefab
+  artifactKey: Guid(389f421d38d0075498ea9969c5e6b0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonTracksPack1/Track1/Prefabs/Props/Banners/prop_banner_www_A.prefab using Guid(389f421d38d0075498ea9969c5e6b0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fd0b00d19491ce2a22138c131f361fd') in 0.1033174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
